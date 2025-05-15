@@ -304,5 +304,14 @@ console.log(array5);
 console.log(array4);
 
 
-
+//Reverse Right Angle Triangle
+let rows5 = 5;
+for(let i=rows5; i>=1; i--){
+    let patternRev="";
+for(let j=1 ;j<=i; j++) {
+    patternRev +="*"; 
+} 
+console.log(patternRev);
+     
+}
 
